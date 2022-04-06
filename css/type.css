@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rubik:wght@300&family=Special+Elite&display=swap');
+
+body {
+    font-family:'Courier New', 'Arial', Courier, monospace, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0.2em;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgba(0, 0, 255, 1);
+}
+
+h2, h3 {
+    font-family: 'Special Elite', cursive;
+    color: rgba(0, 0, 255, 0.9);
+}
+
+header p {
+    margin: 1em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.1em;
+}
+
+p, li {
+    font-size: 1em;
+}
+
+
+
+
+li, p {
+    font-family: 'Rubik', sans-serif;
+}

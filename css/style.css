@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/pattern.png");
+}
+
+ /* Every line of recipe (inside the <li>, <h2>, <h3> tags) is highlighted when cursor hovers */
+ /* Text inside the <p> tag highlights by paragraph, not by line */
+
+ h1:hover {
+    background-color: rgba(166, 63, 3, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+ h2:hover {
+    background-color: rgba(0, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+h3:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+}
+
+p:hover {
+    background-color:rgb(180, 237, 243);
+}
+
+li:hover {
+    background-color:rgba(255, 212, 135, 1);
+}
+
+figure {
+    float: left;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0.01em;
+}
+
+footer p {
+    background-color: rgb(180, 237, 243);
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: rgba(166, 63, 3, 1);
+}
+
+
+
+
+
+

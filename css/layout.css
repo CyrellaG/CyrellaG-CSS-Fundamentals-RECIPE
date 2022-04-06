@@ -1,0 +1,43 @@
+/* MOBILE LAYOUT */
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "fig-container"
+        "main"
+        "footer";
+}
+header {grid-area: header;}
+figure {grid-area: figure;}
+footer {grid-area: footer;}
+main{grid-area: main;}
+
+
+/* TABLET LAYOUT */
+
+@media(min-width: 600px) {
+    body{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+            "header header"
+            "figure main"
+            "aside  main"
+            "aside  main"
+            "footer footer";} 
+}
+
+ /* DESKTOP LAYOUT */
+  
+@media(min-width: 1200px) {
+    body{
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "header  header header  header"
+            "figure  main main    main"
+            "aside   main  main    main"
+            "aside   main  main    main"
+            "footer  footer footer  footer";} 
+}
